@@ -8,7 +8,7 @@
                 </a>
                 <div class="nav-item-group ml-5">
 
-                    <a href="" class="text-white btn btn btn-outline-warning">Product</a>
+                    <a href="{{ url('/product') }}" class="text-white btn btn btn-outline-warning">Product</a>
                     <a href="" class="text-white btn btn btn-outline-dark">Category</a>
                     <a href="" class="text-white btn btn btn-outline-dark ">Hot Deal</a>
                     <a href="" class="text-white btn btn btn-outline-dark ">About</a>

@@ -21,6 +21,7 @@ Route::group(['middleware' => ['redirectIfNotAuth']], function() {
 
 
 Route::get('/', 'PageController@home');
+Route::get('/product', 'PageController@allProduct');
 Route::get('/product/{slug}', 'ProductController@detail');
 
 
