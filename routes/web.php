@@ -42,4 +42,5 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'middleware' => ['adm
     Route::get('/add-transaction', 'ProductController@addTransaction');
     Route::get('/remove-transaction', 'ProductController@removeTransaction');
     Route::post('product-upload', 'ProductController@imageUpload');
+    Route::get('/order-list', 'OrderController@all');
 });
